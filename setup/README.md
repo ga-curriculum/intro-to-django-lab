@@ -1,4 +1,4 @@
-# ![[tktk Module Name] - Setup](./assets/hero.png)
+# ![Intro to Django - Polls Lab - Setup](./assets/hero.png)
 
 ## Setup
 
@@ -8,33 +8,74 @@ Open your Terminal application and navigate to your `~/code/ga/labs` directory:
 cd ~/code/ga/labs
 ```
 
-<!-- tktk if starter code exists -->
+## Django Tutorial Setup
 
-Fork the [[tktk Repo Name]](https://git.generalassemb.ly/modular-curriculum-all-courses/[tktk Repo Name]) repository.
+### Create a Database for the Project
 
-<!-- tktk if starting from scratch  -->
+PostgreSQL requires that a database be created manually before it can be used in projects. For our Django tutorial, we will create a database named `polls`.
 
-Make a new repository on [GitHub](https://github.com/) named [tktk Repo Name].
-
-<!-- tktk -->
-
-Clone a copy of your remote repo locally by using the `git clone` command:
+Here's how to create the `polls` database using PostgreSQL:
 
 ```bash
-git clone https://github.com/<your-username>/[tktk Repo Name].git [tktk Personal GitHub for new labs]
-git clone https://git.generalassemb.ly/<your-username>/[tktk Repo Name].git [tktk GA enterprise GitHub for starter code]
+createdb polls
 ```
 
-> 📚 Note: In the link above, where it says `<your-username>`, you should see the username from your GitHub account.
-
-Next, `cd` into your new cloned directory, `[tktk Repo Name]`:
+Alternatively, you can use the PostgreSQL interactive terminal to create the database:
 
 ```bash
-cd [tktk Repo Name]
+psql
+CREATE DATABASE polls;
+\l  # Lists all databases to confirm 'polls' has been created
+\q  # Exit the psql shell
 ```
 
-Open the project's folder in your code editor:
+Make sure to note the username displayed next to the database name in the list, as you might need it depending on your PostgreSQL setup.
+
+## Initialize a Django Project Environment
+
+### Step 1: Set Up Your Project Directory
+
+Navigate to your desired directory (e.g., `~/code/ga/lectures`) and create a new directory for your Django project:
 
 ```bash
-code .
+mkdir my-django-project
+cd my-django-project
 ```
+
+### Step 2: Install Django Using Pipenv
+
+Initialize a new virtual environment and install Django:
+
+```bash
+pipenv install django
+```
+
+This command creates a new `Pipfile` and `Pipfile.lock` in your project directory, specifying Django as a dependency.
+
+> Look Familiar? This step is similar to `npm init` and `npm install` all in one.
+
+### Step 3: Activate the Virtual Environment
+
+Activate the pipenv shell, which is a subshell for your project:
+
+```bash
+pipenv shell
+```
+
+Your terminal prompt will change to indicate that you are working within a virtual environment.
+
+### Step 4: Start Your Django Project
+
+Now that your environment is ready, you can begin the actual Django tutorial for creating your first Django app:
+
+- Follow the tutorial steps for setting up your Django project. Make sure to use the Django admin commands within the environment you just activated.
+
+## Deactivating the Virtual Environment
+
+When you're done working in the virtual environment, you can deactivate it by typing:
+
+```bash
+exit
+```
+
+This will return you to your normal shell environment.
