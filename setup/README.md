@@ -1,4 +1,4 @@
-# ![Intro to Django - Polls Lab - Setup](./assets/hero.png)
+# ![Intro to Django Lab - Setup](./assets/hero.png)
 
 ## Setup
 
