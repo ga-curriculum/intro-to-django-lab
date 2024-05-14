@@ -1,4 +1,4 @@
-# ![Intro to Django - Polls Lab - Exercise](./assets/hero.png)
+# ![Intro to Django Lab - Exercise](./assets/hero.png)
 
 ## Introduction to building your first Django app
 
