@@ -1,4 +1,4 @@
-# ![Intro to Django Lab](../assets/tktk-hero.png)
+# ![Intro to Django Lab](../assets/hero.png)
 
 ## About
 
