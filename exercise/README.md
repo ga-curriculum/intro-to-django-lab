@@ -2,11 +2,18 @@
 
 ## Introduction to building your first Django app
 
-Welcome to this practical lab where you will build your first Django application—a simple but functional "polls" app. As you embark on this journey, the best resource for learning how to construct this app is straight from the source: Django's own documentation.
+This lab is your chance to dive into the world of Django by building a simple yet practical polls application. To guide you on this exciting journey, we'll leverage the best resource available: Django's official documentation.
 
 ### Why learn from the official Django documentation?
 
-Django's documentation is renowned for being comprehensive, well-structured, and highly informative. It not only provides step-by-step guides on building applications but also instills best practices that you will use when programming in Django. For this project, and likely many others, you will find yourself referencing the Django documentation frequently. This lab serves as both an introduction to Django and an exercise in learning how to navigate and utilize these resources effectively.
+Here's why the official documentation is your secret weapon:
+
+- **Unmatched Comprehensiveness**: It covers everything you need, from step-by-step app creation guides to best practices that will become second nature in your Django development.
+- **Structured Learning**: The documentation is well-organized, making it easy to find what you need and follow along.
+- **Invaluable Reference**: This won't be your last encounter with the Django docs. Throughout your development journey, they'll be your go-to resource for in-depth information. 
+
+
+This lab serves a dual purpose: it introduces you to Django and equips you with the skills to navigate and utilize the official documentation effectively.
 
 ## Exercise
 
