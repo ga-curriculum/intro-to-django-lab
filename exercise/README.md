@@ -1,4 +1,7 @@
-# ![Intro to Django Lab - Exercise](./assets/hero.png)
+<h1>
+  <span class="headline">Intro to Django Lab</span>
+  <span class="subhead">Exercise</span>
+</h1>
 
 ## Introduction to building your first Django app
 
